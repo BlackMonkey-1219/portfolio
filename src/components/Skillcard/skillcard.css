@@ -1,0 +1,52 @@
+.skillcard {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  /* background-color: var(--primary-color-solid); */
+  background-image: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(255, 255, 255, 0.3) 25%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(5px);
+}
+
+.skillcard #details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillcard #details #progress svg circle:nth-child(1) {
+  fill: transparent;
+  stroke-width: 1rem;
+  stroke: var(--primary-color-transparent);
+}
+.skillcard #details #progress svg circle:nth-child(2) {
+  fill: transparent;
+  stroke-width: 1rem;
+  stroke: var(--accent-color);
+  stroke-dasharray: 628;
+  /* stroke-dashoffset: 627; */
+}
+
+.skillcard #details img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.skillcard #gloss {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  z-index: 2;
+}

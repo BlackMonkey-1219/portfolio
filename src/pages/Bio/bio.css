@@ -1,0 +1,114 @@
+#hero {
+  position: relative;
+}
+
+#hero h1,
+#hero h2,
+#hero img {
+  position: absolute;
+}
+
+#hero h1 {
+  top: 12rem;
+  left: 10rem;
+}
+
+#hero h1::before {
+  content: "";
+  width: 150px;
+  height: 2px;
+  position: absolute;
+  background-color: var(--accent-color);
+  left: -1rem;
+  top: 0;
+}
+
+#hero h1::after {
+  content: "";
+  width: 300px;
+  height: 5px;
+  position: absolute;
+  background-color: var(--accent-color);
+  right: -2rem;
+  bottom: -3rem;
+}
+
+#hero h2 {
+  top: 8rem;
+  left: 5rem;
+}
+
+#hero img {
+  width: 400px;
+  right: 3rem;
+  bottom: 3rem;
+  box-shadow: -1rem -1rem 0rem 0.2rem rgb(39, 39, 39);
+  border-bottom: 2px solid var(--secondary-color);
+  border-right: 2px solid var(--secondary-color);
+}
+
+#bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+#bio p {
+  width: 50rem;
+  position: relative;
+}
+
+#bio p::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  left: 0rem;
+  top: -0.5rem;
+  background-color: var(--accent-color);
+}
+
+#bio p::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  right: 0rem;
+  bottom: -0.5rem;
+  background-color: var(--accent-color);
+}
+
+#bio a button {
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #ffffff;
+  overflow: hidden;
+  transition: all 1s ease;
+  animation: glow 3s infinite ease;
+}
+
+#bio a button::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 120%;
+  top: -10%;
+  left: -20%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 3px 3px rgba(255, 255, 255, 0.8);
+  transition: all 1s ease;
+}
+
+#bio a button:hover::before {
+  cursor: pointer;
+  transform: translateX(250px);
+}
+
+#bio a button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
