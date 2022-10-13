@@ -19,15 +19,15 @@ html {
 }
 
 h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
   font-size: 2rem;
 }
 
-h3 {
+h2 {
   font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
 }
 
 .bi {
@@ -43,11 +43,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--primary-color);
-  background-image: linear-gradient(
-    135deg,
-    var(--primary-color-solid),
-    var(--secondary-color)
-  );
+  background-image: linear-gradient(135deg,
+      var(--primary-color-solid),
+      var(--secondary-color));
 }
 
 body svg#halo {
@@ -111,8 +109,8 @@ section::before {
   position: absolute;
   width: 80px;
   height: 120%;
-  background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.3);
   top: -10%;
   left: -15%;
   transform: skew(-45deg);
@@ -123,6 +121,7 @@ section::before {
   height: 5px;
   border: 1px solid black;
 }
+
 *::-webkit-scrollbar-track {
   background: rgb(0, 0, 0);
 }
@@ -139,6 +138,7 @@ section::before {
   0% {
     background-position: right;
   }
+
   100% {
     background-position: left;
   }
@@ -148,31 +148,45 @@ section::before {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
 
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 980px) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 15px;
+  }
+
 }
 
 @media screen and (max-width: 545px) {
   html {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 460px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 370px) {
   html {
-    font-size: 8px;
+    font-size: 14px;
   }
 }

@@ -1,7 +1,7 @@
 import "./chat.css"
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
-const socket = io("http://localhost:5000/");
+const socket = io("https://portfolio-chatapi.herokuapp.com/");
 
 const Chat = () => {
     const [ isConnected, setIsConnected ] = useState(false);

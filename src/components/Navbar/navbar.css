@@ -3,6 +3,10 @@ a {
   transition: all 0.25s ease;
 }
 
+#menu-btn {
+  display: none;
+}
+
 #nav-container {
   height: 100px;
   width: 94vw;
@@ -19,6 +23,7 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   text-align: center;
+  position: relative;
 }
 
 #nav-container img {
@@ -32,22 +37,22 @@ a {
   align-items: center;
 }
 
-#nav-container nav li:first-of-type {
+#nav-container nav a:first-of-type {
   display: none;
 }
 
-#nav-container nav li {
+#nav-container nav a li {
   list-style-type: none;
   padding: 1rem;
   transition: all 0.25s ease;
 }
 
-li:hover {
+#nav-container nav a:hover li {
   cursor: pointer;
   background-color: var(--accent-color);
 }
 
-li:hover a {
+#nav-container nav a li:hover {
   color: var(--primary-color-solid);
 }
 
@@ -56,9 +61,11 @@ li:hover a {
     height: 80px;
     justify-content: center;
   }
+
   #nav-container img {
     display: none;
   }
+
   #nav-container nav li:first-of-type {
     display: inline;
   }
@@ -66,19 +73,48 @@ li:hover a {
 
 @media screen and (max-width: 750px) {
   #nav-container {
+    flex-direction: column;
     position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
     width: 50vw;
     height: 100vh;
+    left: -50vw;
+    top: 0;
+    bottom: 0;
     z-index: 5;
-    flex-direction: column;
+    transition: all 1s ease;
   }
+
+  #nav-container.open {
+    left: 0;
+  }
+
   #nav-container nav {
     height: 100%;
+    width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+
+  #menu-btn {
+    display: block;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: -75px;
+    right: -75px;
+    z-index: 10;
+  }
+
+  #menu-btn circle {
+    stroke: #ffffff;
+    stroke-width: 5px;
+    transition: all 0.25s ease;
+    filter: drop-shadow(0 0 10px #ffffff);
+  }
+
+  #menu-btn circle:hover {
+    stroke: #00c3ff;
+    filter: drop-shadow(0 0 20px #00ccff);
   }
 }
 
@@ -90,6 +126,6 @@ li:hover a {
 
 @media screen and (max-width: 320px) {
   #nav-container nav li {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 }
