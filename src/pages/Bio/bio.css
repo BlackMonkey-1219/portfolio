@@ -1,50 +1,25 @@
 #hero {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
-#hero h1,
-#hero h2,
-#hero img {
-  position: absolute;
+#hero div img {
+  height: 500px;
 }
 
-#hero h1 {
-  top: 12rem;
-  left: 10rem;
+#hero div#headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#hero h1::before {
-  content: "";
-  width: 150px;
-  height: 2px;
-  position: absolute;
-  background-color: var(--accent-color);
-  left: -1rem;
-  top: 0;
-}
-
-#hero h1::after {
-  content: "";
-  width: 300px;
-  height: 5px;
-  position: absolute;
-  background-color: var(--accent-color);
-  right: -2rem;
-  bottom: -3rem;
-}
-
-#hero h2 {
-  top: 8rem;
-  left: 5rem;
-}
-
-#hero img {
-  width: 400px;
-  right: 3rem;
-  bottom: 3rem;
-  box-shadow: -1rem -1rem 0rem 0.2rem rgb(39, 39, 39);
-  border-bottom: 2px solid var(--secondary-color);
-  border-right: 2px solid var(--secondary-color);
+#hero div#headings * {
+  margin: 0 1.5rem;
 }
 
 #bio {
@@ -56,8 +31,9 @@
 }
 
 #bio p {
-  width: 50rem;
+  width: 90%;
   position: relative;
+  font-size: 1.5rem;
 }
 
 #bio p::before {
@@ -112,3 +88,7 @@
   transform: scale(1.1);
   cursor: pointer;
 }
+
+/* @mdeia screen and (max-width: ){
+  
+} */

@@ -22,6 +22,10 @@
   align-items: center;
 }
 
+.skillcard #details #progress {
+  transform: rotate(-90deg);
+}
+
 .skillcard #details #progress svg circle:nth-child(1) {
   fill: transparent;
   stroke-width: 1rem;

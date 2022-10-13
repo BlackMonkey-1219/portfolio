@@ -5,9 +5,13 @@ const Bio = () => {
     return (
         <>
             <section id="hero">
-                <h2>HI, I'm Allen</h2>
-                <h1>I'm a Fullstack Developer</h1>
-                <img src={image} alt="" />
+                <div>
+                    <img src={image} alt="" />
+                </div>
+                <div id="headings">
+                    <h2>HI, I'm Allen</h2>
+                    <h1>I'm a Fullstack Developer</h1>
+                </div>
             </section>
             <section id="bio">
                 <h2>

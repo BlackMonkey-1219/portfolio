@@ -1,5 +1,9 @@
 const links = [
   {
+    link: "/",
+    title: "Home",
+  },
+  {
     link: "/frontend",
     title: "Frontend",
   },
@@ -16,7 +20,7 @@ const links = [
     title: "Desktop",
   },
   {
-    link: "/contact",
+    link: "/chat",
     title: "Cafe",
   },
 ];
