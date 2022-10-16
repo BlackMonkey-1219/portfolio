@@ -1,7 +1,7 @@
 import "./chat.css"
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
-const socket = io("https://portfolio-chatapi.herokuapp.com/");
+const socket = io("https://portfolio-chat-api.cyclic.app/");
 
 const Chat = () => {
     const [ isConnected, setIsConnected ] = useState(false);
@@ -33,20 +33,20 @@ const Chat = () => {
     }
 
     function addMsg(recvdMsgObj) {
-        console.log(`YUP ADD MSG TRIGGERED...`)
+        // console.log(`YUP ADD MSG TRIGGERED...`)
         setMessagesObjs([ ...messageObjs, recvdMsgObj ]);
     }
 
     function addParticipants(participantsList) {
-        console.log(`SERVER PACKET: ${participantsList}`);
+        // console.log(`SERVER PACKET: ${participantsList}`);
         setParticipants(participantsList);
     }
 
     function sendMsg() {
         const msgInput = document.getElementById('msg-input');
         socket.emit('send-msg', { msg: msgInput.value });
-        msgInput.value = "";
         addMsg({ sender: "You", msg: msgInput.value });
+        msgInput.value = "";
     }
 
     function initializeClient() {
