@@ -1,7 +1,7 @@
 import "./chat.css"
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
-const socket = io("https://portfolio-chat-api.cyclic.app/");
+const socket = io("https://chat-api-prod.cyclic.app/");
 
 const Chat = () => {
     const [ isConnected, setIsConnected ] = useState(false);
