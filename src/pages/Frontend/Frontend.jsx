@@ -32,7 +32,13 @@ const Frontend = () => {
                 <div id="projectcard-container">
                     {
                         frontendProjects.map((projectObj, index) => {
-                            return <Projectcard key={index} image={projectObj.image} projectName={projectObj.name} />
+                            return <Projectcard
+                                key={index}
+                                image={projectObj.image}
+                                projectDesc={projectObj.desc}
+                                link={projectObj.link}
+
+                            />
                         })
                     }
                 </div>

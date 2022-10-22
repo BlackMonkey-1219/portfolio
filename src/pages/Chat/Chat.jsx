@@ -1,7 +1,8 @@
 import "./chat.css"
 import io from "socket.io-client";
 import { useState, useEffect } from "react";
-const socket = io("https://chat-api-prod.cyclic.app/");
+// const socket = io("https://chat-api-prod.cyclic.app/");
+const socket = io("http://localhost:5000/");
 
 const Chat = () => {
     const [ isConnected, setIsConnected ] = useState(false);
@@ -74,7 +75,6 @@ const Chat = () => {
                 <div id="participants-view">
                     {
                         participants.map((participant, index) => {
-                            console.log(participant);
                             return (
                                 <div
                                     key={index}
