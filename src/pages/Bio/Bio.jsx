@@ -1,4 +1,4 @@
-import image from "./../../assets/portrait-photo.jpg";
+import { hero_image } from "./../../assets";
 import "./bio.css";
 import { Link } from "react-router-dom";
 import bio_desc from "./../../data/bio"
@@ -7,7 +7,7 @@ const Bio = () => {
         <>
             <section id="hero">
                 <div>
-                    <img src={image} alt="" />
+                    <img src={hero_image} alt="" />
                 </div>
                 <div id="headings">
                     <h2>HI, I'm Allen</h2>
