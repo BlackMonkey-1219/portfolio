@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.556f8c5b.css",
-    "main.js": "/portfolio/static/js/main.657481a0.js",
+    "main.js": "/portfolio/static/js/main.206f8e1f.js",
+    "static/media/screencapture-portfolio-saas-01-netlify-app-2022-10-24-14_39_52.png": "/portfolio/static/media/screencapture-portfolio-saas-01-netlify-app-2022-10-24-14_39_52.553977d47dbb2a56a62c.png",
     "static/media/screencapture-portfolio-ecommerce-01-netlify-app-2022-10-22-04_54_08.png": "/portfolio/static/media/screencapture-portfolio-ecommerce-01-netlify-app-2022-10-22-04_54_08.5e93ccb3726de8a135a9.png",
     "static/media/Portfolio-Pro-Pic.jpg": "/portfolio/static/media/Portfolio-Pro-Pic.295c383d37851f8bdc3b.jpg",
     "static/media/screencapture-portfolio-portfolio-01-netlify-app-2022-10-22-04_54_31.png": "/portfolio/static/media/screencapture-portfolio-portfolio-01-netlify-app-2022-10-22-04_54_31.4df7738715bb6deb9597.png",
@@ -11,10 +12,10 @@
     "static/media/logo.png": "/portfolio/static/media/logo.6ef873f26da8220017ff.png",
     "index.html": "/portfolio/index.html",
     "main.556f8c5b.css.map": "/portfolio/static/css/main.556f8c5b.css.map",
-    "main.657481a0.js.map": "/portfolio/static/js/main.657481a0.js.map"
+    "main.206f8e1f.js.map": "/portfolio/static/js/main.206f8e1f.js.map"
   },
   "entrypoints": [
     "static/css/main.556f8c5b.css",
-    "static/js/main.657481a0.js"
+    "static/js/main.206f8e1f.js"
   ]
 }
