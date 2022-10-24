@@ -1,4 +1,8 @@
-import { frontend_project_01, frontend_project_02 } from "../assets";
+import {
+  frontend_project_01,
+  frontend_project_02,
+  frontend_project_03,
+} from "../assets";
 
 const frontendProjects = [
   {
@@ -10,6 +14,11 @@ const frontendProjects = [
     image: frontend_project_02,
     desc: "A practice portfolio site developed with react.js",
     link: "https://portfolio-portfolio-01.netlify.app/",
+  },
+  {
+    image: frontend_project_03,
+    desc: "A practice saas landing page developed with React, Typescript and Sass.",
+    link: "https://portfolio-saas-01.netlify.app/",
   },
 ];
 

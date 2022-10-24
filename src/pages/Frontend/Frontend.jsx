@@ -43,13 +43,13 @@ const Frontend = () => {
                     }
                 </div>
             </section>
-            <section className="page frontend call-to-action">
+            {/* <section className="page frontend call-to-action">
                 <Link to={"chat"}>
                     <button>
                         GO TO CAFE<i className="bi bi-chat-dots"></i>
                     </button>
                 </Link>
-            </section>
+            </section> */}
         </>
     );
 }

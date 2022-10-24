@@ -19,6 +19,11 @@ const frontendSkills = [
     logo: "https://www.citypng.com/public/uploads/small/11662226392uom4gsi9ddb1c81ipfx2u4imargvwq7uskhdui1pj4f6xufjz0jkfzqzduhjuifts0dzcnykgszw6isfutq2nlwb51ef4gm0dt8d.png",
     level: 80,
   },
+  {
+    name: "TS",
+    logo: "https://miro.medium.com/max/256/1*iA-WRbWcbYd3BFAzzFypWg.png",
+    level: 40,
+  },
 ];
 
 const backendSkills = [

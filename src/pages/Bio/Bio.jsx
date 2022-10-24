@@ -21,11 +21,11 @@ const Bio = () => {
                 <p>
                     {bio_desc}
                 </p>
-                <Link to={"chat"}>
+                {/* <Link to={"chat"}>
                     <button>
                         GO TO CAFE<i className="bi bi-chat-dots"></i>
                     </button>
-                </Link>
+                </Link> */}
             </section>
         </>
     );

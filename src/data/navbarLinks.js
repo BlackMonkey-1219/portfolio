@@ -8,19 +8,19 @@ const links = [
     title: "Frontend",
   },
   {
-    link: "/backend",
+    link: "#",
     title: "Backend",
   },
   {
-    link: "/webscraping",
+    link: "#",
     title: "WebScraping",
   },
   {
-    link: "/desktop",
+    link: "#",
     title: "Desktop",
   },
   {
-    link: "/chat",
+    link: "#",
     title: "Cafe",
   },
 ];
