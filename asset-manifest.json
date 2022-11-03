@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.556f8c5b.css",
-    "main.js": "/portfolio/static/js/main.206f8e1f.js",
+    "main.js": "/portfolio/static/js/main.a97a15bf.js",
     "static/media/screencapture-portfolio-saas-01-netlify-app-2022-10-24-14_39_52.png": "/portfolio/static/media/screencapture-portfolio-saas-01-netlify-app-2022-10-24-14_39_52.553977d47dbb2a56a62c.png",
     "static/media/screencapture-portfolio-ecommerce-01-netlify-app-2022-10-22-04_54_08.png": "/portfolio/static/media/screencapture-portfolio-ecommerce-01-netlify-app-2022-10-22-04_54_08.5e93ccb3726de8a135a9.png",
+    "static/media/screencapture-portfolio-landingpage-01-netlify-app-2022-10-25-18_00_34.png": "/portfolio/static/media/screencapture-portfolio-landingpage-01-netlify-app-2022-10-25-18_00_34.dcc9a2e3dadd0d63c61c.png",
     "static/media/Portfolio-Pro-Pic.jpg": "/portfolio/static/media/Portfolio-Pro-Pic.295c383d37851f8bdc3b.jpg",
     "static/media/screencapture-portfolio-portfolio-01-netlify-app-2022-10-22-04_54_31.png": "/portfolio/static/media/screencapture-portfolio-portfolio-01-netlify-app-2022-10-22-04_54_31.4df7738715bb6deb9597.png",
     "static/media/frontend-hero.jpg": "/portfolio/static/media/frontend-hero.0d839a5acbd31eddfd9b.jpg",
     "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
     "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/screencapture-localhost-3000-2022-11-03-09_35_59.png": "/portfolio/static/media/screencapture-localhost-3000-2022-11-03-09_35_59.441cb10440d93017e41b.png",
     "static/media/logo.png": "/portfolio/static/media/logo.6ef873f26da8220017ff.png",
     "index.html": "/portfolio/index.html",
     "main.556f8c5b.css.map": "/portfolio/static/css/main.556f8c5b.css.map",
-    "main.206f8e1f.js.map": "/portfolio/static/js/main.206f8e1f.js.map"
+    "main.a97a15bf.js.map": "/portfolio/static/js/main.a97a15bf.js.map"
   },
   "entrypoints": [
     "static/css/main.556f8c5b.css",
-    "static/js/main.206f8e1f.js"
+    "static/js/main.a97a15bf.js"
   ]
 }
